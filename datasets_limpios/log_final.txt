@@ -1,0 +1,36 @@
+============================================================
+  REPORTE FINAL — Pipeline de Marketing
+  Generado: 2026-04-23 08:03:51
+============================================================
+
+── ENERO (Dataset de referencia) ──
+   Dimensiones finales: 2240 filas × 28 cols
+   Acciones realizadas:
+     ✏️  'Client ID' renombrado a 'CustomerID'
+     🔧 24 nulos en 'Income' imputados con mediana = 51,381.50
+     📋 Columnas faltantes vs. Enero: {'Client ID'}
+
+── FEBRERO (Dataset procesado) ──
+   Dimensiones finales: 2240 filas × 28 cols
+   Acciones realizadas:
+     ✏️  'Client ID' renombrado a 'CustomerID'
+     🗑️  Columnas eliminadas: ['Mes', 'Columna Extra D', 'Columna Extra M']
+     🔧 24 nulos en 'Income' imputados con mediana = 51,381.50
+
+── MARZO (Dataset procesado) ──
+   Dimensiones finales: 2240 filas × 27 cols
+   Acciones realizadas:
+     ✏️  'Client ID' renombrado a 'CustomerID'
+     🗑️  Columnas eliminadas: ['Mes', 'Columna Extra D', 'Columna Extra M']
+     🔧 24 nulos en 'Income' imputados con mediana = 51,381.50
+     ⚠️  ALERTA: columna 'Response' (target) AUSENTE. Este archivo no puede usarse para entrenar el modelo.
+     📋 Columnas faltantes vs. Enero: {'Response'}
+
+────────────────────────────────────────────────────────────
+  RESUMEN EJECUTIVO (generado por Gemini)
+────────────────────────────────────────────────────────────
+[Gemini no disponible: name 'GEMINI_API_KEY' is not defined]
+
+============================================================
+  Archivos generados en: datasets_limpios
+============================================================
