@@ -1,0 +1,478 @@
+{
+  "dataset": "Marzo",
+  "filas": 2240,
+  "columnas": 31,
+  "duplicados": 0,
+  "columnas_detalle": {
+    "Mes": {
+      "tipo_detectado": "object",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 1,
+      "alertas": [
+        "Columna constante"
+      ],
+      "top_valores": {
+        "Marzo": 2240
+      }
+    },
+    "Client ID": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 2240,
+      "alertas": [],
+      "min": 0.0,
+      "max": 11191.0,
+      "media": 5592.159821428571,
+      "mediana": 5458.5,
+      "std": 3246.662197564341,
+      "outliers_iqr": 0
+    },
+    "Year_Birth": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 59,
+      "alertas": [
+        "3 outliers IQR"
+      ],
+      "min": 1893.0,
+      "max": 1996.0,
+      "media": 1968.8058035714287,
+      "mediana": 1970.0,
+      "std": 11.984069456885825,
+      "outliers_iqr": 3
+    },
+    "Columna Extra D": {
+      "tipo_detectado": "object",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 1,
+      "alertas": [
+        "Columna constante"
+      ],
+      "top_valores": {
+        "D": 2240
+      }
+    },
+    "Education": {
+      "tipo_detectado": "object",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 5,
+      "alertas": [],
+      "top_valores": {
+        "Graduation": 1127,
+        "PhD": 486,
+        "Master": 370,
+        "2n Cycle": 203,
+        "Basic": 54
+      }
+    },
+    "Marital_Status": {
+      "tipo_detectado": "object",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 8,
+      "alertas": [],
+      "top_valores": {
+        "Married": 864,
+        "Together": 580,
+        "Single": 480,
+        "Divorced": 232,
+        "Widow": 77
+      }
+    },
+    "Income": {
+      "tipo_detectado": "float64",
+      "filas": 2240,
+      "nulos": 24,
+      "pct_nulos": 1.07,
+      "unicos": 1974,
+      "alertas": [
+        "8 outliers IQR"
+      ],
+      "min": 1730.0,
+      "max": 666666.0,
+      "media": 52247.25135379061,
+      "mediana": 51381.5,
+      "std": 25173.07666090141,
+      "outliers_iqr": 8
+    },
+    "Kidhome": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 3,
+      "alertas": [],
+      "min": 0.0,
+      "max": 2.0,
+      "media": 0.44419642857142855,
+      "mediana": 0.0,
+      "std": 0.5383980977345874,
+      "outliers_iqr": 0
+    },
+    "Teenhome": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 3,
+      "alertas": [],
+      "min": 0.0,
+      "max": 2.0,
+      "media": 0.50625,
+      "mediana": 0.0,
+      "std": 0.5445382307698755,
+      "outliers_iqr": 0
+    },
+    "Dt_Customer": {
+      "tipo_detectado": "fecha",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 663,
+      "alertas": [],
+      "fecha_min": "2012-07-30 00:00:00",
+      "fecha_max": "2014-06-29 00:00:00"
+    },
+    "Recency": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 100,
+      "alertas": [],
+      "min": 0.0,
+      "max": 99.0,
+      "media": 49.109375,
+      "mediana": 49.0,
+      "std": 28.962452808378206,
+      "outliers_iqr": 0
+    },
+    "MntWines": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 776,
+      "alertas": [
+        "35 outliers IQR"
+      ],
+      "min": 0.0,
+      "max": 1493.0,
+      "media": 303.9357142857143,
+      "mediana": 173.5,
+      "std": 336.5973926053715,
+      "outliers_iqr": 35
+    },
+    "Columna Extra M": {
+      "tipo_detectado": "object",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 1,
+      "alertas": [
+        "Columna constante"
+      ],
+      "top_valores": {
+        "M": 2240
+      }
+    },
+    "MntFruits": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 158,
+      "alertas": [
+        "227 outliers IQR"
+      ],
+      "min": 0.0,
+      "max": 199.0,
+      "media": 26.302232142857143,
+      "mediana": 8.0,
+      "std": 39.77343376457866,
+      "outliers_iqr": 227
+    },
+    "MntMeatProducts": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 558,
+      "alertas": [
+        "175 outliers IQR"
+      ],
+      "min": 0.0,
+      "max": 1725.0,
+      "media": 166.95,
+      "mediana": 67.0,
+      "std": 225.71537251175434,
+      "outliers_iqr": 175
+    },
+    "MntFishProducts": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 182,
+      "alertas": [
+        "223 outliers IQR"
+      ],
+      "min": 0.0,
+      "max": 259.0,
+      "media": 37.52544642857143,
+      "mediana": 12.0,
+      "std": 54.62897940287769,
+      "outliers_iqr": 223
+    },
+    "MntSweetProducts": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 177,
+      "alertas": [
+        "248 outliers IQR"
+      ],
+      "min": 0.0,
+      "max": 263.0,
+      "media": 27.06294642857143,
+      "mediana": 8.0,
+      "std": 41.28049848785481,
+      "outliers_iqr": 248
+    },
+    "MntGoldProds": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 213,
+      "alertas": [
+        "207 outliers IQR"
+      ],
+      "min": 0.0,
+      "max": 362.0,
+      "media": 44.021875,
+      "mediana": 24.0,
+      "std": 52.1674389149972,
+      "outliers_iqr": 207
+    },
+    "NumDealsPurchases": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 15,
+      "alertas": [
+        "86 outliers IQR"
+      ],
+      "min": 0.0,
+      "max": 15.0,
+      "media": 2.325,
+      "mediana": 2.0,
+      "std": 1.9322375008559614,
+      "outliers_iqr": 86
+    },
+    "NumWebPurchases": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 15,
+      "alertas": [
+        "4 outliers IQR"
+      ],
+      "min": 0.0,
+      "max": 27.0,
+      "media": 4.084821428571429,
+      "mediana": 4.0,
+      "std": 2.7787141473881087,
+      "outliers_iqr": 4
+    },
+    "NumCatalogPurchases": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 14,
+      "alertas": [
+        "23 outliers IQR"
+      ],
+      "min": 0.0,
+      "max": 28.0,
+      "media": 2.6620535714285714,
+      "mediana": 2.0,
+      "std": 2.9231006555397197,
+      "outliers_iqr": 23
+    },
+    "NumStorePurchases": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 14,
+      "alertas": [],
+      "min": 0.0,
+      "max": 13.0,
+      "media": 5.790178571428571,
+      "mediana": 5.0,
+      "std": 3.250958145674417,
+      "outliers_iqr": 0
+    },
+    "NumWebVisitsMonth": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 16,
+      "alertas": [
+        "8 outliers IQR"
+      ],
+      "min": 0.0,
+      "max": 20.0,
+      "media": 5.316517857142857,
+      "mediana": 6.0,
+      "std": 2.426645009547285,
+      "outliers_iqr": 8
+    },
+    "AcceptedCmp3": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 2,
+      "alertas": [
+        "163 outliers IQR"
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "media": 0.07276785714285715,
+      "mediana": 0.0,
+      "std": 0.25981306992189157,
+      "outliers_iqr": 163
+    },
+    "AcceptedCmp4": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 2,
+      "alertas": [
+        "167 outliers IQR"
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "media": 0.07455357142857143,
+      "mediana": 0.0,
+      "std": 0.2627282848535636,
+      "outliers_iqr": 167
+    },
+    "AcceptedCmp5": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 2,
+      "alertas": [
+        "163 outliers IQR"
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "media": 0.07276785714285715,
+      "mediana": 0.0,
+      "std": 0.2598130699218915,
+      "outliers_iqr": 163
+    },
+    "AcceptedCmp1": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 2,
+      "alertas": [
+        "144 outliers IQR"
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "media": 0.06428571428571428,
+      "mediana": 0.0,
+      "std": 0.24531597433401,
+      "outliers_iqr": 144
+    },
+    "AcceptedCmp2": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 2,
+      "alertas": [
+        "30 outliers IQR"
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "media": 0.013392857142857142,
+      "mediana": 0.0,
+      "std": 0.11497560625548155,
+      "outliers_iqr": 30
+    },
+    "Complain": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 2,
+      "alertas": [
+        "21 outliers IQR"
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "media": 0.009375,
+      "mediana": 0.0,
+      "std": 0.0963911679444982,
+      "outliers_iqr": 21
+    },
+    "Z_CostContact": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 1,
+      "alertas": [
+        "Columna constante"
+      ],
+      "min": 3.0,
+      "max": 3.0,
+      "media": 3.0,
+      "mediana": 3.0,
+      "std": 0.0,
+      "outliers_iqr": 0
+    },
+    "Z_Revenue": {
+      "tipo_detectado": "int64",
+      "filas": 2240,
+      "nulos": 0,
+      "pct_nulos": 0.0,
+      "unicos": 1,
+      "alertas": [
+        "Columna constante"
+      ],
+      "min": 11.0,
+      "max": 11.0,
+      "media": 11.0,
+      "mediana": 11.0,
+      "std": 0.0,
+      "outliers_iqr": 0
+    }
+  },
+  "resumen_alertas": []
+}
