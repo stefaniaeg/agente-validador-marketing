@@ -1,0 +1,33 @@
+columna,tipo,nulos,pct_nulos,unicos,alertas
+Mes,object,0,0.0,1,Columna constante
+Client ID,int64,0,0.0,2240,
+Year_Birth,int64,0,0.0,59,3 outliers IQR
+Columna Extra D,object,0,0.0,1,Columna constante
+Education,object,0,0.0,5,
+Marital_Status,object,0,0.0,8,
+Income,float64,24,1.07,1974,8 outliers IQR
+Kidhome,int64,0,0.0,3,
+Teenhome,int64,0,0.0,3,
+Dt_Customer,fecha,0,0.0,663,
+Recency,int64,0,0.0,100,
+MntWines,int64,0,0.0,776,35 outliers IQR
+Columna Extra M,object,0,0.0,1,Columna constante
+MntFruits,int64,0,0.0,158,227 outliers IQR
+MntMeatProducts,int64,0,0.0,558,175 outliers IQR
+MntFishProducts,int64,0,0.0,182,223 outliers IQR
+MntSweetProducts,int64,0,0.0,177,248 outliers IQR
+MntGoldProds,int64,0,0.0,213,207 outliers IQR
+NumDealsPurchases,int64,0,0.0,15,86 outliers IQR
+NumWebPurchases,int64,0,0.0,15,4 outliers IQR
+NumCatalogPurchases,int64,0,0.0,14,23 outliers IQR
+NumStorePurchases,int64,0,0.0,14,
+NumWebVisitsMonth,int64,0,0.0,16,8 outliers IQR
+AcceptedCmp3,int64,0,0.0,2,163 outliers IQR
+AcceptedCmp4,int64,0,0.0,2,167 outliers IQR
+AcceptedCmp5,int64,0,0.0,2,163 outliers IQR
+AcceptedCmp1,int64,0,0.0,2,144 outliers IQR
+AcceptedCmp2,int64,0,0.0,2,30 outliers IQR
+Complain,int64,0,0.0,2,21 outliers IQR
+Z_CostContact,int64,0,0.0,1,Columna constante
+Z_Revenue,int64,0,0.0,1,Columna constante
+Response,int64,0,0.0,2,334 outliers IQR
